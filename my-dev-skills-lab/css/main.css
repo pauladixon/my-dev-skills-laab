@@ -1,0 +1,77 @@
+
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 520px;
+    width: 800px;
+    border-color: #B7B7B7;
+    border-width: 3px;
+    border-spacing: 5px;
+    border-style: solid;
+    margin: 10px;
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #94C47E;
+    font-size: 20px;
+    text-emphasis: none;
+    color: white;
+    padding: 8px 90px
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+#addSkill {
+    color: #94C47E;
+    background-color: white;
+    border-color: #94C47E;
+    border-width: 3px;
+    border-spacing: 5px;
+    font-size: 16px;
+    height: 40px;
+}
+
+#entry {
+    border: solid #94C47E 3px;
+    width: 277px;
+}
+
+.list1 {
+    display: flex;
+    flex-flow: row wrap;
+    color: orange;
+    font-size: 17px;
+    padding: 5px 0px 12px 0px;
+}
+
+.list2 {
+    display: flex;
+    flex-flow: row wrap;
+    color: orange;
+    font-size: 17px;
+    padding: 5px 0px 15px 0px;
+}
+
+.remove {
+    color: white;
+    background-color: #E06666;
+    border-color: #E06666;
+    font-size: 13px;
+    margin: 0px 12px 0px 0px;
+}
